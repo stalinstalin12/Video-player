@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video player</title>
+</head>
+<body>
+    <h1>Videos Stream</h1>
+
+    <!-- upload videos -->
+     <h2>Upload Video</h2>
+    <input type="file" id="videoupload" accept="video/*">
+    <button id="uploadbutton">Upload Video</button>
+
+    <h2>Available Videos</h2>
+  <ul id="videolist"></ul>
+
+
+    <video id="videoplayer" width="600px" height="300px" controls>
+        <source src="../server/upload/videos/172951895174550.mp4"id="videosource" type="video/mp4">
+    </video>
+
+    <script src="script.js"></script>
+</body>
+</html> 
